@@ -34,14 +34,11 @@ class Person
 end
 
 if __FILE__ == $0
-  komatsu = Person.new 
+  kzh001 = Person.new 
+  
+  kzh001.name = "kzh001"
+  kzh001.age  = "**"
 
-  komatsu.name    = "Komatsu Toru"
-  komatsu.school  = "松江高専"
-  komatsu.email   = "j1218@matsue-ct.jp"
-  komatsu.github  = "K0mAtoru"
-  komatsu.twitter = "K0mA_pro"
-
-  komatsu.present
+  kzh001.present
 end
 
